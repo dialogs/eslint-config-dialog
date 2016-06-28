@@ -1,0 +1,40 @@
+{
+  "name": "@dlghq/eslint-config-dialog",
+  "version": "0.0.0",
+  "description": "Dialog ESLint config",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "base.js",
+    "index.js"
+  ],
+  "keywords": [
+    "dialog",
+    "eslint",
+    "config",
+    "styleguide"
+  ],
+  "scripts": {
+    "test": "eslint src/",
+    "preversion": "npm test",
+    "postpublish": "git push --follow-tags"
+  },
+  "author": "Nikita Gusakov <gusnkt@gmail.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "babel-eslint": "6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "2.13.x",
+    "eslint-plugin-react": "5.2.x"
+  },
+  "peerDependencies": {
+    "eslint": "2.13.x"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": "5.2.x"
+  }
+}
