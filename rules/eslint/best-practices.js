@@ -180,7 +180,7 @@ module.exports = {
   'no-void': 2,
 
   // disallow usage of configurable warning terms in comments e.g. TODO or FIXME
-  'no-warning-comments': 2,
+  'no-warning-comments': 1,
 
   // disallow use of the with statement
   'no-with': 2,
