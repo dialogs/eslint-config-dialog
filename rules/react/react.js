@@ -8,9 +8,6 @@ module.exports = {
   // Forbid certain propTypes
   'react/forbid-prop-types': [2, { 'forbid': ['array', 'object'] }],
 
-  // Prevent comments from being inserted as text nodes
-  'react/no-comment-textnodes': 2,
-
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 2,
 
@@ -86,8 +83,5 @@ module.exports = {
   }],
 
   // Enforce propTypes declarations alphabetical sorting
-  'react/sort-prop-types': 0,
-
-  // Prevent missing parentheses around multilines JSX
-  'react/wrap-multilines': 2
+  'react/sort-prop-types': 0
 };

@@ -41,6 +41,9 @@ module.exports = {
   // Prevent usage of .bind() and arrow functions in JSX props
   'react/jsx-no-bind': 2,
 
+  // Prevent comments from being inserted as text nodes
+  'react/jsx-no-comment-textnodes': 2,
+
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': [2, { 'ignoreCase': true }],
 
@@ -66,5 +69,8 @@ module.exports = {
   'react/jsx-uses-react': 2,
 
   // Prevent variables used in JSX to be incorrectly marked as unused
-  'react/jsx-uses-vars': 2
+  'react/jsx-uses-vars': 2,
+
+  // Prevent missing parentheses around multilines JSX
+  'react/jsx-wrap-multilines': 2
 };
