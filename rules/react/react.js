@@ -26,6 +26,9 @@ module.exports = {
   // Prevent direct mutation of this.state
   'react/no-direct-mutation-state': 2,
 
+  // Prevent usage of findDOMNode
+  'react/no-find-dom-node': 2,
+
   // Prevent usage of isMounted
   'react/no-is-mounted': 2,
 
@@ -55,9 +58,6 @@ module.exports = {
 
   // Prevent missing React when using JSX
   'react/react-in-jsx-scope': 2,
-
-  // Restrict file extensions that may be required
-  'react/require-extension': 0,
 
   // Enforce React components to have a shouldComponentUpdate method
   'react/require-optimization': 1,
