@@ -28,13 +28,13 @@
     "babel-eslint": "6.1.2"
   },
   "devDependencies": {
-    "eslint-plugin-react": "6.0.x"
     "eslint": "3.3.x",
+    "eslint-plugin-react": "6.1.x"
   },
   "peerDependencies": {
     "eslint": "3.3.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "6.0.x"
+    "eslint-plugin-react": "6.1.x"
   }
 }
