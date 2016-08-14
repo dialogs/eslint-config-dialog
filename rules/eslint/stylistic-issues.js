@@ -33,6 +33,9 @@ module.exports = {
   // enforce newline at the end of file, with no multiple empty lines
   'eol-last': 2,
 
+  // require or disallow spacing between function identifiers and their invocations
+  'func-call-spacing': 2,
+
   // require function expressions to have a name
   'func-names': 1,
 
@@ -144,9 +147,6 @@ module.exports = {
   // disallow use of certain syntax in code
   'no-restricted-syntax': [2, 'WithStatement'],
 
-  // disallow space between function identifier and application
-  'no-spaced-func': 2,
-
   // disallow tabs in file
   'no-tabs': 2,
 
@@ -212,8 +212,11 @@ module.exports = {
   // require or disallow use of semicolons instead of ASI
   'semi': [2, 'always'],
 
+  // requires object keys to be sorted
+  'sort-keys': 0,
+
   // sort variables within the same declaration block
-  'sort-vars': 2,
+  'sort-vars': 0,
 
   // require or disallow a space before blocks
   'space-before-blocks': 2,
