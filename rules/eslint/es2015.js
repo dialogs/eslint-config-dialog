@@ -86,6 +86,9 @@ module.exports = {
   // enforce sorted import declarations within modules
   'sort-imports': 0,
 
+  // require symbol descriptions
+  'symbol-description': 2,
+
   // require or disallow spacing around embedded expressions of template string
   'template-curly-spacing': [2, 'never'],
 

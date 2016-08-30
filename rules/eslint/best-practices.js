@@ -11,6 +11,9 @@ module.exports = {
   // treat var statements as if they were block scoped
   'block-scoped-var': 2,
 
+  // enforce that class methods utilize this
+  'class-methods-use-this': 2,
+
   // specify the maximum cyclomatic complexity allowed in a program
   'complexity': 2,
 
