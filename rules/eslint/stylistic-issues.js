@@ -62,8 +62,14 @@ module.exports = {
   // enforce consistent spacing before and after keywords
   'keyword-spacing': [2, { 'before': true, 'after': true }],
 
+  // enforce position of line comments
+  'line-comment-position': [2, { 'position': 'above' }],
+
   // enforce empty lines around comments
   'lines-around-comment': 2,
+
+  // require or disallow newlines around directives
+  'lines-around-directive': [2, 'always'],
 
   // disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': 2,

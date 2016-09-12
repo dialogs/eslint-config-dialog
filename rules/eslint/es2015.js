@@ -65,6 +65,9 @@ module.exports = {
   // suggest using const declaration for variables that are never modified after declared
   'prefer-const': 2,
 
+  // disallow parseInt() in favor of binary, octal, and hexadecimal literals
+  'prefer-numeric-literals': 2,
+
   // require rest parameters instead of arguments
   'prefer-rest-params': 2,
 
