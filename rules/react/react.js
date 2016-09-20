@@ -11,6 +11,9 @@ module.exports = {
   // Forbid certain propTypes
   'react/forbid-prop-types': [2, { 'forbid': ['array', 'object'] }],
 
+  // Prevent passing children as props
+  'react/no-children-prop': 2,
+
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 2,
 
@@ -46,6 +49,9 @@ module.exports = {
 
   // Prevent using string references in ref attribute.
   'react/no-string-refs': 0,
+
+  // Prevent invalid characters from appearing in markup
+  'react/no-unescaped-entities': 2,
 
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
