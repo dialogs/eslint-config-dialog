@@ -83,6 +83,7 @@ module.exports = {
   // Enforce component methods order
   'react/sort-comp': [2, {
     'order': [
+      'type-annotations',
       'static-methods',
       'lifecycle',
       '/^on.+$/',
