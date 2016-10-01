@@ -2,21 +2,21 @@ const eslint = require('./rules/eslint');
 const react = require('./rules/react');
 
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
-    browser: true
+  'env': {
+    'es6': true,
+    'node': true,
+    'browser': true
   },
-  parser: 'babel-eslint',
-  parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 2017,
-    ecmaFeatures: {
-      jsx: true,
-      experimentalObjectRestSpread: true
+  'parser': 'babel-eslint',
+  'parserOptions': {
+    'sourceType': 'module',
+    'ecmaVersion': 2017,
+    'ecmaFeatures': {
+      'jsx': true,
+      'experimentalObjectRestSpread': true
     }
   },
-  plugins: [
+  'plugins': [
     'react'
   ],
   'settings': {
@@ -25,5 +25,5 @@ module.exports = {
       'version': '15'
     }
   },
-  rules: Object.assign({}, eslint, react)
+  'rules': Object.assign({}, eslint, react)
 };
