@@ -4,7 +4,7 @@
   "description": "Dialog ESLint config",
   "main": "index.js",
   "files": [
-    "rules",
+    "src",
     "base.js",
     "index.js"
   ],
