@@ -1,5 +1,6 @@
 const eslint = require('./src/rules/eslint');
 const react = require('./src/rules/react');
+const globals = require('./src/globals');
 
 module.exports = {
   'env': {
@@ -25,5 +26,6 @@ module.exports = {
       'version': '15'
     }
   },
-  'rules': Object.assign({}, eslint, react)
+  'rules': Object.assign({}, eslint, react),
+  'globals': Object.assign({}, globals)
 };
