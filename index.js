@@ -1,5 +1,5 @@
-const eslint = require('./rules/eslint');
-const react = require('./rules/react');
+const eslint = require('./src/rules/eslint');
+const react = require('./src/rules/react');
 
 module.exports = {
   'env': {
