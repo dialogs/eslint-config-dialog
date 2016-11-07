@@ -30,12 +30,12 @@
   },
   "devDependencies": {
     "eslint": "3.9.x",
-    "eslint-plugin-react": "6.5.x"
+    "eslint-plugin-react": "6.6.x"
   },
   "peerDependencies": {
     "eslint": "3.9.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "6.5.x"
+    "eslint-plugin-react": "6.6.x"
   }
 }
