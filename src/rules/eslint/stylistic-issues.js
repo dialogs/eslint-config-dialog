@@ -15,6 +15,9 @@ module.exports = {
   // require camel case names
   'camelcase': [2, { 'properties': 'never' }],
 
+  // enforce or disallow capitalization of the first letter of a comment
+  'capitalized-comments': 0,
+
   // enforce spacing before and after comma
   'comma-spacing': [2, {
     'before': false,

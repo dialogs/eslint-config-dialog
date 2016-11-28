@@ -197,6 +197,9 @@ module.exports = {
   // require use of the second argument for parseInt()
   'radix': 2,
 
+  // disallow async functions which have no await expression
+  'require-await': 0,
+
   // require declaration of all vars at the top of their containing scope
   'vars-on-top': 2,
 
