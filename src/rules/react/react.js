@@ -11,6 +11,9 @@ module.exports = {
   // Forbid certain propTypes
   'react/forbid-prop-types': [2, { 'forbid': ['array', 'object'] }],
 
+  // Prevent using Array index in key props
+  'react/no-array-index-key': 1,
+
   // Prevent passing children as props
   'react/no-children-prop': 2,
 
@@ -70,6 +73,9 @@ module.exports = {
 
   // Prevent missing React when using JSX
   'react/react-in-jsx-scope': 2,
+
+  // Enforce a defaultProps definition for every prop that is not a required prop
+  'react/require-default-props': 0,
 
   // Enforce React components to have a shouldComponentUpdate method
   'react/require-optimization': 1,
