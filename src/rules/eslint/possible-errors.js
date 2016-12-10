@@ -2,6 +2,9 @@
 * Possible Errors
 */
 module.exports = {
+  // disallow await inside of loops
+  'no-await-in-loop': [1],
+
   // disallow or enforce trailing commas
   'comma-dangle': [2, 'never'],
 
