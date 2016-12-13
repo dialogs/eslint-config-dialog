@@ -36,7 +36,7 @@ module.exports = {
   'no-new-symbol': 2,
 
   // disallow duplicate module imports
-  'no-duplicate-imports': 2,
+  'no-duplicate-imports': 0,
 
   // disallow specified modules when loaded by import
   'no-restricted-imports': 0,

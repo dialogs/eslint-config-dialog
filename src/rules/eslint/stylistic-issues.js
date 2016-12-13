@@ -85,7 +85,7 @@ module.exports = {
 
   // enforce a maximum line length
   'max-len': [2, {
-    'code': 100,
+    'code': 120,
     'tabWidth': 2
   }],
 
