@@ -3,12 +3,7 @@
  */
 module.exports = {
   // enforce return after a callback
-  'callback-return': [2, [
-    'callback',
-    'cb',
-    'next',
-    'done'
-  ]],
+  'callback-return': 0,
 
   'global-require': 1,
 
