@@ -144,6 +144,9 @@ module.exports = {
   // disallow mixed spaces and tabs for indentation
   'no-mixed-spaces-and-tabs': 2,
 
+  // disallow use of chained assignment expressions
+  'no-multi-assign': 2,
+
   // disallow multiple empty lines
   'no-multiple-empty-lines': [2, { 'max': 2 }],
 

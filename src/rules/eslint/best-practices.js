@@ -194,6 +194,9 @@ module.exports = {
   // disallow use of the with statement
   'no-with': 2,
 
+  // require using Error objects as Promise rejection reasons
+  'prefer-promise-reject-errors': 2,
+
   // require use of the second argument for parseInt()
   'radix': 2,
 
