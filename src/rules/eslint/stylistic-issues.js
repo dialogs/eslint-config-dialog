@@ -124,7 +124,7 @@ module.exports = {
   'newline-after-var': 0,
 
   // require an empty line before return statements
-  'newline-per-chained-call': [2, { 'ignoreChainWithDepth': 2 }],
+  'newline-per-chained-call': 0,
 
   // disallow use of the Array constructor
   'no-array-constructor': 2,
