@@ -254,6 +254,10 @@ module.exports = {
     'markers': ['=', '!']
   }],
 
+  // require or disallow spacing between template tags and their literals
+  'template-tag-spacing': [2, 'never'],
+
+  // require or disallow Unicode byte order mark (BOM)
   'unicode-bom': [2, 'never'],
 
   // require regex literals to be wrapped in parentheses
