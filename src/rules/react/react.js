@@ -8,8 +8,14 @@ module.exports = {
   // Forbid certain props on Components
   'react/forbid-component-props': 0,
 
+  // Forbid certain elements
+  'react/forbid-elements': 0,
+
   // Forbid certain propTypes
   'react/forbid-prop-types': [2, { 'forbid': ['array', 'object'] }],
+
+  // Forbid foreign propTypes
+  'react/forbid-foreign-prop-types': 2,
 
   // Prevent using Array index in key props
   'react/no-array-index-key': 1,
@@ -108,5 +114,8 @@ module.exports = {
   'react/sort-prop-types': 0,
 
   // Enforce style prop value being an object
-  'react/style-prop-object': 2
+  'react/style-prop-object': 2,
+
+  // Prevent void DOM elements (e.g. <img />, <br />) from receiving children
+  'react/void-dom-elements-no-children': 2
 };
