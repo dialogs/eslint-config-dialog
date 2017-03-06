@@ -117,5 +117,5 @@ module.exports = {
   'react/style-prop-object': 2,
 
   // Prevent void DOM elements (e.g. <img />, <br />) from receiving children
-  'react/void-dom-elements-no-children': 2
+  'react/void-dom-elements-no-children': 0
 };
