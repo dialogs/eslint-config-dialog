@@ -180,6 +180,9 @@ module.exports = {
   // disallow whitespace before properties
   'no-whitespace-before-property': 2,
 
+  // enforce the location of single-line statements
+  'nonblock-statement-body-position': 2,
+
   // require or disallow line breaks inside braces
   'object-curly-newline': 0,
   // Disabled due https://github.com/eslint/eslint/issues/6549
