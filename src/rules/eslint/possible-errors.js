@@ -3,7 +3,10 @@
 */
 module.exports = {
   // disallow await inside of loops
-  'no-await-in-loop': [1],
+  'no-await-in-loop': 1,
+
+  // disallow comparing against -0
+  'no-compare-neg-zero': 2,
 
   // disallow or enforce trailing commas
   'comma-dangle': [2, 'never'],

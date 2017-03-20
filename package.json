@@ -1,6 +1,6 @@
 {
   "name": "@dlghq/eslint-config-dialog",
-  "version": "1.23.2",
+  "version": "1.23.0",
   "description": "Dialog ESLint config",
   "main": "index.js",
   "files": [
@@ -29,11 +29,11 @@
     "babel-eslint": "7.1.1"
   },
   "devDependencies": {
-    "eslint": "3.17.x",
+    "eslint": "3.18.x",
     "eslint-plugin-react": "6.10.x"
   },
   "peerDependencies": {
-    "eslint": "3.17.x"
+    "eslint": "3.18.x"
   },
   "optionalDependencies": {
     "eslint-plugin-react": "6.10.x"
