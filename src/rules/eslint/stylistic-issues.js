@@ -159,6 +159,9 @@ module.exports = {
   // disallow the use of the Object constructor
   'no-new-object': 2,
 
+  // disallow the unary operators ++ and --
+  'no-plusplus': 0,
+
   // disallow use of certain syntax in code
   'no-restricted-syntax': [2, 'WithStatement'],
 
