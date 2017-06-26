@@ -15,8 +15,7 @@ module.exports = {
   'array-element-newline': [2, { 'multiline': true }],
 
   // enforce one true brace style
-  'brace-style': [2,
-    '1tbs', { 'allowSingleLine': true }],
+  'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
 
   // require camel case names
   'camelcase': [2, { 'properties': 'never' }],
@@ -25,10 +24,13 @@ module.exports = {
   'capitalized-comments': 0,
 
   // enforce spacing before and after comma
-  'comma-spacing': [2, {
-    'before': false,
-    'after': true
-  }],
+  'comma-spacing': [
+    2,
+    {
+      'before': false,
+      'after': true
+    }
+  ],
 
   // enforce one true comma style
   'comma-style': [2, 'last'],
@@ -66,10 +68,13 @@ module.exports = {
   'jsx-quotes': [2, 'prefer-double'],
 
   // enforce spacing between keys and values in object literal properties
-  'key-spacing': [2, {
-    'beforeColon': false,
-    'afterColon': true
-  }],
+  'key-spacing': [
+    2,
+    {
+      'beforeColon': false,
+      'afterColon': true
+    }
+  ],
 
   // enforce consistent spacing before and after keywords
   'keyword-spacing': [2, { 'before': true, 'after': true }],
@@ -87,17 +92,23 @@ module.exports = {
   'max-depth': [2, { 'max': 4 }],
 
   // enforce a maximum line length
-  'max-len': [2, {
-    'code': 120,
-    'tabWidth': 2
-  }],
+  'max-len': [
+    2,
+    {
+      'code': 120,
+      'tabWidth': 2
+    }
+  ],
 
   // enforce a maximum file length
-  'max-lines': [2, {
-    'max': 300,
-    'skipBlankLines': true,
-    'skipComments': true
-  }],
+  'max-lines': [
+    2,
+    {
+      'max': 300,
+      'skipBlankLines': true,
+      'skipComments': true
+    }
+  ],
 
   // enforce a maximum depth that callbacks can be nested
   'max-nested-callbacks': [2, { 'max': 4 }],
@@ -115,10 +126,13 @@ module.exports = {
   'multiline-ternary': 0,
 
   // require a capital letter for constructors
-  'new-cap': [2, {
-    'newIsCap': true,
-    'capIsNew': false
-  }],
+  'new-cap': [
+    2,
+    {
+      'newIsCap': true,
+      'capIsNew': false
+    }
+  ],
 
   // disallow the omission of parentheses when invoking a constructor with no arguments
   'new-parens': 2,
@@ -198,10 +212,13 @@ module.exports = {
   'object-property-newline': 0,
 
   // require or disallow one variable declaration per function
-  'one-var': [2, {
-    'uninitialized': 'always',
-    'initialized': 'never'
-  }],
+  'one-var': [
+    2,
+    {
+      'uninitialized': 'always',
+      'initialized': 'never'
+    }
+  ],
 
   // require or disallow newlines around var declarations
   'one-var-declaration-per-line': 2,
@@ -216,10 +233,7 @@ module.exports = {
   'padded-blocks': [2, 'never'],
 
   // require or disallow padding lines between statements
-  'padding-line-between-statements': [
-    2,
-    { 'blankLine': 'always', 'prev': '*', 'next': 'return' }
-  ],
+  'padding-line-between-statements': [2, { 'blankLine': 'always', 'prev': '*', 'next': 'return' }],
 
   // require quotes around object literal property names
   'quote-props': [2, 'consistent-as-needed'],
@@ -234,10 +248,13 @@ module.exports = {
   'semi': [2, 'always'],
 
   // enforce spacing before and after semicolons
-  'semi-spacing': [2, {
-    'before': false,
-    'after': true
-  }],
+  'semi-spacing': [
+    2,
+    {
+      'before': false,
+      'after': true
+    }
+  ],
 
   // enforce location of semicolons
   'semi-style': [2, 'last'],
@@ -264,10 +281,14 @@ module.exports = {
   'space-unary-ops': 2,
 
   // require or disallow a space immediately following the // or /* in a comment
-  'spaced-comment': [2, 'always', {
-    'exceptions': ['-', '+'],
-    'markers': ['=', '!']
-  }],
+  'spaced-comment': [
+    2,
+    'always',
+    {
+      'exceptions': ['-', '+'],
+      'markers': ['=', '!']
+    }
+  ],
 
   // enforce spacing around colons of switch statements
   'switch-colon-spacing': [2, { 'after': true, 'before': false }],

@@ -93,22 +93,16 @@ module.exports = {
   'react/self-closing-comp': 2,
 
   // Enforce component methods order
-  'react/sort-comp': [2, {
-    'order': [
-      'type-annotations',
-      'static-methods',
-      'lifecycle',
-      '/^on.+$/',
-      '/^handle.+$/',
-      '/^is.+$/',
-      '/^has.+$/',
-      '/^get.+$/',
-      '/^set.+$/',
-      'everything-else',
-      '/^render.+$/',
-      'render'
-    ]
-  }],
+  'react/sort-comp': [
+    2,
+    {
+      'order': [
+        'type-annotations', 'static-methods', 'lifecycle',
+        '/^on.+$/', '/^handle.+$/', '/^is.+$/', '/^has.+$/', '/^get.+$/', '/^set.+$/',
+        'everything-else', '/^render.+$/', 'render'
+      ]
+    }
+  ],
 
   // Enforce propTypes declarations alphabetical sorting
   'react/sort-prop-types': 0,
