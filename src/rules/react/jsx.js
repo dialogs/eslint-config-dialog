@@ -8,6 +8,9 @@ module.exports = {
   // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': [2, { 'location': 'tag-aligned' }],
 
+  // Validate closing tag location in JSX
+  'react/jsx-closing-tag-location': 2,
+
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [2, 'never'],
 
@@ -64,9 +67,6 @@ module.exports = {
 
   // Enforce props alphabetical sorting
   'react/jsx-sort-props': 0,
-
-  // Validate spacing before closing bracket in JSX
-  'react/jsx-space-before-closing': 2,
 
   // Validate whitespace in and around the JSX opening and closing brackets
   'react/jsx-tag-spacing': [

@@ -2,6 +2,9 @@
  * React
  */
 module.exports = {
+  // Prevent extraneous defaultProps on components
+  'react/default-props-match-prop-types': 0,
+
   // Prevent missing displayName in a React component definition
   'react/display-name': 0,
 
@@ -50,6 +53,9 @@ module.exports = {
   // Prevent multiple component definition per file
   'react/no-multi-comp': [2, { 'ignoreStateless': true }],
 
+  // Prevent usage of shouldComponentUpdate when extending React.PureComponent
+  'react/no-redundant-should-component-update': 2,
+
   // Prevent usage of the return value of React.render
   'react/no-render-return-value': 2,
 
@@ -67,6 +73,9 @@ module.exports = {
 
   // Prevent definitions of unused prop types
   'react/no-unused-prop-types': 2,
+
+  // Prevent usage of setState in componentWillUpdate
+  'react/no-will-update-set-state': 2,
 
   // Enforce ES5 or ES6 class for React Components
   'react/prefer-es6-class': 2,
@@ -97,9 +106,18 @@ module.exports = {
     2,
     {
       'order': [
-        'type-annotations', 'static-methods', 'lifecycle',
-        '/^on.+$/', '/^handle.+$/', '/^is.+$/', '/^has.+$/', '/^get.+$/', '/^set.+$/',
-        'everything-else', '/^render.+$/', 'render'
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        '/^on.+$/',
+        '/^handle.+$/',
+        '/^is.+$/',
+        '/^has.+$/',
+        '/^get.+$/',
+        '/^set.+$/',
+        'everything-else',
+        '/^render.+$/',
+        'render'
       ]
     }
   ],
