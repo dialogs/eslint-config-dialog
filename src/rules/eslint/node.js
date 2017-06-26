@@ -10,6 +10,9 @@ module.exports = {
   // enforce error handling in callbacks
   'handle-callback-err': 2,
 
+  // disallow use of the Buffer() constructor
+  'no-buffer-constructor': 2,
+
   // disallow mixing regular variable and require declarations
   'no-mixed-requires': 2,
 

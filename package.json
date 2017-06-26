@@ -26,14 +26,14 @@
     "node": ">=4.2.0"
   },
   "dependencies": {
-    "babel-eslint": "7.2.2"
+    "babel-eslint": "7.2.3"
   },
   "devDependencies": {
-    "eslint": "3.19.x",
+    "eslint": "4.1.x",
     "eslint-plugin-react": "6.10.x"
   },
   "peerDependencies": {
-    "eslint": "3.19.x"
+    "eslint": "4.1.x"
   },
   "optionalDependencies": {
     "eslint-plugin-react": "6.10.x"

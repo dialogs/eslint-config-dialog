@@ -2,11 +2,17 @@
  * Stylistic Issues
  */
 module.exports = {
+  // enforce linebreaks after opening and before closing array brackets
+  'array-bracket-newline': [2, { 'multiline': true }],
+
   // enforce spacing inside array brackets
   'array-bracket-spacing': 2,
 
   // disallow or enforce spaces inside of single line blocks
   'block-spacing': [2, 'always'],
+
+  // enforce line breaks after each array element
+  'array-element-newline': [2, { 'multiline': true }],
 
   // enforce one true brace style
   'brace-style': [2,
@@ -74,9 +80,6 @@ module.exports = {
   // enforce empty lines around comments
   'lines-around-comment': 2,
 
-  // require or disallow newlines around directives
-  'lines-around-directive': [2, 'always'],
-
   // disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': 2,
 
@@ -119,9 +122,6 @@ module.exports = {
 
   // disallow the omission of parentheses when invoking a constructor with no arguments
   'new-parens': 2,
-
-  // require or disallow an empty newline after variable declarations
-  'newline-after-var': 0,
 
   // require an empty line before return statements
   'newline-per-chained-call': 0,
@@ -215,6 +215,12 @@ module.exports = {
   // enforce padding within blocks
   'padded-blocks': [2, 'never'],
 
+  // require or disallow padding lines between statements
+  'padding-line-between-statements': [
+    2,
+    { 'blankLine': 'always', 'prev': '*', 'next': 'return' }
+  ],
+
   // require quotes around object literal property names
   'quote-props': [2, 'consistent-as-needed'],
 
@@ -224,14 +230,17 @@ module.exports = {
   // require JSDoc comment
   'require-jsdoc': 0,
 
+  // require or disallow use of semicolons instead of ASI
+  'semi': [2, 'always'],
+
   // enforce spacing before and after semicolons
   'semi-spacing': [2, {
     'before': false,
     'after': true
   }],
 
-  // require or disallow use of semicolons instead of ASI
-  'semi': [2, 'always'],
+  // enforce location of semicolons
+  'semi-style': [2, 'last'],
 
   // requires object keys to be sorted
   'sort-keys': 0,
@@ -259,6 +268,9 @@ module.exports = {
     'exceptions': ['-', '+'],
     'markers': ['=', '!']
   }],
+
+  // enforce spacing around colons of switch statements
+  'switch-colon-spacing': [2, { 'after': true, 'before': false }],
 
   // require or disallow spacing between template tags and their literals
   'template-tag-spacing': [2, 'never'],

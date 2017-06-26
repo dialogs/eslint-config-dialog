@@ -2,6 +2,9 @@
 * Possible Errors
 */
 module.exports = {
+  // enforce “for” loop update clause moving the counter in the right direction.
+  'for-direction': 2,
+
   // disallow await inside of loops
   'no-await-in-loop': 1,
 
