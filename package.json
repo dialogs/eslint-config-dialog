@@ -29,11 +29,11 @@
     "babel-eslint": "7.2.3"
   },
   "devDependencies": {
-    "eslint": "4.1.x",
+    "eslint": "4.2.x",
     "eslint-plugin-react": "7.1.x"
   },
   "peerDependencies": {
-    "eslint": "4.1.x"
+    "eslint": "4.2.x"
   },
   "optionalDependencies": {
     "eslint-plugin-react": "7.1.x"
