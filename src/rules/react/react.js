@@ -45,7 +45,7 @@ module.exports = {
   'react/no-direct-mutation-state': 2,
 
   // Prevent usage of findDOMNode
-  'react/no-find-dom-node': 2,
+  'react/no-find-dom-node': 1,
 
   // Prevent usage of isMounted
   'react/no-is-mounted': 2,
