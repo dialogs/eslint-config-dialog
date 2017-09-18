@@ -23,9 +23,6 @@ module.exports = {
   // enforce consistent spacing around * operators in generator functions
   'generator-star-spacing': 2,
 
-  // enforce spacing around the * in generator functions
-  'generator-star-spacing': [0, 'before'],
-
   // disallow modifying variables of class declarations
   'no-class-assign': 2,
 
