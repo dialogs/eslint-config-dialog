@@ -29,8 +29,8 @@
     "babel-eslint": "8.0.0"
   },
   "devDependencies": {
-    "eslint": "4.7.x",
-    "eslint-plugin-react": "7.3.x"
+    "eslint": "^4.7.x",
+    "eslint-plugin-react": "^7.3.x"
   },
   "peerDependencies": {
     "eslint": "4.7.x"
