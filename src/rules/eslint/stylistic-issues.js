@@ -56,6 +56,9 @@ module.exports = {
   // enforce use of function declarations or expressions
   'func-style': 0,
 
+  // enforce consistent line breaks inside function parentheses
+  'function-paren-newline': 2,
+
   // disallow specified identifiers
   'id-blacklist': 0,
 

@@ -62,6 +62,9 @@ module.exports = {
   // Prevent usage of setState
   'react/no-set-state': 0,
 
+  // Prevent common casing typos
+  'react/no-typos': 2,
+
   // Prevent using string references in ref attribute.
   'react/no-string-refs': 0,
 

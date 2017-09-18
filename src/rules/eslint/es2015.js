@@ -20,6 +20,9 @@ module.exports = {
   // verify calls of super() in constructors
   'constructor-super': 2,
 
+  // enforce consistent spacing around * operators in generator functions
+  'generator-star-spacing': 2,
+
   // enforce spacing around the * in generator functions
   'generator-star-spacing': [0, 'before'],
 

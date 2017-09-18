@@ -2,6 +2,9 @@
  * JSX
  */
 module.exports = {
+  // Enforces consistent naming for boolean props
+  'react/boolean-prop-naming': 0,
+
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': [2, 'never'],
 
