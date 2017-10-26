@@ -1,6 +1,6 @@
 /**
-* Possible Errors
-*/
+ * Possible Errors
+ */
 module.exports = {
   // enforce “for” loop update clause moving the counter in the right direction.
   'for-direction': 2,

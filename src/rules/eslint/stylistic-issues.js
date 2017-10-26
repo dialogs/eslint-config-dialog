@@ -88,6 +88,9 @@ module.exports = {
   // enforce empty lines around comments
   'lines-around-comment': 2,
 
+  // require or disallow an empty line between class members
+  'lines-between-class-members': 2,
+
   // disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': 2,
 
@@ -124,6 +127,9 @@ module.exports = {
 
   // enforce a maximum number of statements allowed per line
   'max-statements-per-line': [2, { 'max': 1 }],
+
+  // enforce a particular style for multiline comments
+  'multiline-comment-style': [2, 'starred-block'],
 
   // enforce newlines between operands of ternary expressions
   'multiline-ternary': 0,
@@ -205,10 +211,12 @@ module.exports = {
 
   // require or disallow line breaks inside braces
   'object-curly-newline': 0,
-  // Disabled due https://github.com/eslint/eslint/issues/6549
-  // 'object-curly-newline': [2, { 'multiline': true, 'minProperties': 1 }],
 
-  // require or disallow padding inside curly braces
+  /*
+   * Disabled due https://github.com/eslint/eslint/issues/6549
+   * 'object-curly-newline': [2, { 'multiline': true, 'minProperties': 1 }],
+   * require or disallow padding inside curly braces
+   */
   'object-curly-spacing': [2, 'always'],
 
   // enforce placing object properties on separate lines

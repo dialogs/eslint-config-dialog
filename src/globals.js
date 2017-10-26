@@ -1,9 +1,11 @@
 module.exports = {
   '__DEV__': true,
 
-  // Workarounds for https://github.com/babel/babel-eslint/issues/130
-  // no-undef errors incorrectly on these global flow types
-  // https://fburl.com/flow-react-defs
+  /*
+   * Workarounds for https://github.com/babel/babel-eslint/issues/130
+   * no-undef errors incorrectly on these global flow types
+   * https://fburl.com/flow-react-defs
+   */
   'ReactComponent': false,
   'ReactClass': false,
   'ReactElement': false,
@@ -22,9 +24,11 @@ module.exports = {
   'SyntheticWheelEvent': false,
   'SyntheticTouchEvent': false,
 
-  // a bunch of types extracted from http://git.io/vOtv9
-  // there's a bunch of overlap with browser globals, so we try to avoid
-  // redefining some of those.
+  /*
+   * a bunch of types extracted from http://git.io/vOtv9
+   * there's a bunch of overlap with browser globals, so we try to avoid
+   * redefining some of those.
+   */
   '$Either': false,
   '$All': false,
   '$Tuple': false,

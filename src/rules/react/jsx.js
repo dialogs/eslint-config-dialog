@@ -65,6 +65,9 @@ module.exports = {
   // Disallow undeclared variables in JSX
   'react/jsx-no-undef': 2,
 
+  // Enforce curly braces or disallow unnecessary curly braces in JSX
+  'react/jsx-curly-brace-presence': 2,
+
   // Enforce PascalCase for user-defined JSX components
   'react/jsx-pascal-case': 2,
 
