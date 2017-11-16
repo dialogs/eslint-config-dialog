@@ -12,7 +12,7 @@ module.exports = {
   'block-spacing': [2, 'always'],
 
   // enforce line breaks after each array element
-  'array-element-newline': [2, { 'multiline': true, 'minItems': 5 }],
+  'array-element-newline': 0,
 
   // enforce one true brace style
   'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
@@ -89,7 +89,7 @@ module.exports = {
   'lines-around-comment': 2,
 
   // require or disallow an empty line between class members
-  'lines-between-class-members': 2,
+  'lines-between-class-members': 0,
 
   // disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': 2,
