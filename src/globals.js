@@ -34,11 +34,14 @@ module.exports = {
   '$Tuple': false,
   '$Supertype': false,
   '$Subtype': false,
+  '$PropertyType': false,
   '$Shape': false,
   '$Diff': false,
   '$Keys': false,
   '$Enum': false,
+  '$Exact': false,
   '$Exports': false,
+  '$ObjMap': false,
   'Class': false,
   'function': false,
   'Iterable': false,
@@ -52,5 +55,29 @@ module.exports = {
   'Iterator': false,
   'IteratorResult': false,
   '$await': false,
-  'ArrayBufferView': false
+  'ArrayBufferView': false,
+
+  /*
+   * some of this maybe should be handled by the npm globals module, but it
+   * doesn't have proper WebRTC support yet
+   * https://fburl.com/flow-webrtc-defs
+   */
+  'RTCConfiguration': false,
+  'RTCIceServer': false,
+  'RTCOfferOptions': false,
+  'RTCStatsReport': false,
+  'RTCStatsCallback': false,
+  'RTCPeerConnection': false,
+  'RTCPeerConnectionErrorCallback': false,
+  'RTCSessionDescription': false,
+  'RTCSessionDescriptionInit': false,
+  'RTCSessionDescriptionCallback': false,
+  'RTCIceCandidate': false,
+  'RTCIceCandidateInit': false,
+  'RTCPeerConnectionIceEvent': false,
+  'RTCPeerConnectionIceEventInit': false,
+  'RTCDataChannel': false,
+  'RTCDataChannelInit': false,
+  'RTCDataChannelEvent': false,
+  'RTCDataChannelEventInit': false
 };
