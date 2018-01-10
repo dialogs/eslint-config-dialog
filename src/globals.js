@@ -25,6 +25,12 @@ module.exports = {
   'SyntheticTouchEvent': false,
 
   /*
+   * Opaque stadard library types
+   */
+  'TimeoutID': false,
+  'IntervalID': false,
+
+  /*
    * a bunch of types extracted from http://git.io/vOtv9
    * there's a bunch of overlap with browser globals, so we try to avoid
    * redefining some of those.
