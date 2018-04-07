@@ -2,11 +2,11 @@
  * JSX
  */
 module.exports = {
-  // Enforces consistent naming for boolean props
-  'react/boolean-prop-naming': 0,
-
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': [2, 'never'],
+
+  // Enforce or disallow spaces inside of curly braces in JSX attributes and expressions.
+  'react/jsx-child-element-spacing': 2,
 
   // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': [2, { 'location': 'tag-aligned' }],
@@ -44,6 +44,9 @@ module.exports = {
   // Validate JSX has key prop when in array or iterator
   'react/jsx-key': 2,
 
+  // Validate JSX maximum depth
+  'react/jsx-max-depth': 0,
+
   // Limit maximum of props on a single line in JSX
   'react/jsx-max-props-per-line': [2, { 'maximum': 4 }],
 
@@ -65,11 +68,17 @@ module.exports = {
   // Disallow undeclared variables in JSX
   'react/jsx-no-undef': 2,
 
+  // Limit to one expression per line in JSX
+  'react/jsx-one-expression-per-line': 2,
+
   // Enforce curly braces or disallow unnecessary curly braces in JSX
   'react/jsx-curly-brace-presence': 2,
 
   // Enforce PascalCase for user-defined JSX components
   'react/jsx-pascal-case': 2,
+
+  // Enforce default props alphabetical sorting
+  'react/jsx-sort-default-props': 0,
 
   // Enforce props alphabetical sorting
   'react/jsx-sort-props': 0,

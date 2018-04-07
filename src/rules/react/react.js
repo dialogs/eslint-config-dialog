@@ -2,14 +2,26 @@
  * React
  */
 module.exports = {
+  // Enforces consistent naming for boolean props
+  'react/boolean-prop-naming': 0,
+
+  // Forbid "button" element without an explicit "type" attribute
+  'react/button-has-type': 2,
+
   // Prevent extraneous defaultProps on components
   'react/default-props-match-prop-types': 0,
+
+  // Rule enforces consistent usage of destructuring assignment in component
+  'react/destructuring-assignment': 0,
 
   // Prevent missing displayName in a React component definition
   'react/display-name': 0,
 
   // Forbid certain props on Components
   'react/forbid-component-props': 0,
+
+  // Forbid certain props on DOM Nodes
+  'react/forbid-dom-props': 0,
 
   // Forbid certain elements
   'react/forbid-elements': 0,
@@ -19,6 +31,9 @@ module.exports = {
 
   // Forbid foreign propTypes
   'react/forbid-foreign-prop-types': 2,
+
+  // Prevent using this.state inside this.setState
+  'react/no-access-state-in-setstate': 2,
 
   // Prevent using Array index in key props
   'react/no-array-index-key': 1,
@@ -67,6 +82,9 @@ module.exports = {
 
   // Prevent using string references in ref attribute.
   'react/no-string-refs': 0,
+
+  // Prevent using `this` in stateless functional components
+  'react/no-this-in-sfc': 2,
 
   // Prevent invalid characters from appearing in markup
   'react/no-unescaped-entities': 2,
