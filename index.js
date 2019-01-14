@@ -17,7 +17,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  plugins: ['react'],
+  plugins: ['react-hooks', 'react'],
   settings: {
     react: {
       pragma: 'React',

@@ -151,4 +151,7 @@ module.exports = {
 
   // Prevent void DOM elements (e.g. <img />, <br />) from receiving children
   'react/void-dom-elements-no-children': 0,
+
+  // Hooks rules
+  'react-hooks/rules-of-hooks': 'error',
 };
