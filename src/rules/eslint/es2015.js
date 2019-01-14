@@ -12,9 +12,9 @@ module.exports = {
   'arrow-spacing': [
     2,
     {
-      'before': true,
-      'after': true
-    }
+      before: true,
+      after: true,
+    },
   ],
 
   // verify calls of super() in constructors
@@ -69,7 +69,7 @@ module.exports = {
   'prefer-const': 2,
 
   // require destructuring from arrays and/or objects
-  'prefer-destructuring': [2, { 'array': false }],
+  'prefer-destructuring': [2, { array: false }],
 
   // disallow parseInt() in favor of binary, octal, and hexadecimal literals
   'prefer-numeric-literals': 2,
@@ -99,5 +99,5 @@ module.exports = {
   'template-curly-spacing': [2, 'never'],
 
   // require or disallow spacing around the * in yield* expressions
-  'yield-star-spacing': 2
+  'yield-star-spacing': 2,
 };

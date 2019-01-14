@@ -1,24 +1,22 @@
-Dialog ESLint Config
-====================
+# Dialog ESLint Config
 
-Installation
-------------
+## Installation
 
 ```
 npm install --save-dev eslint eslint-plugin-react
 npm install --save-dev @dlghq/eslint-config-dialog
 ```
 
-Usage
------
+## Usage
 
 Put into your `.eslintrc.json`
+
 ```json
 {
   "extends": "@dlghq/eslint-config-dialog"
 }
 ```
 
-License
--------
+## License
+
 [Apache-2.0](LICENSE)

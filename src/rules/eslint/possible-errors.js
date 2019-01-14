@@ -105,5 +105,5 @@ module.exports = {
   'valid-typeof': 2,
 
   // Avoid code that looks like two expressions but is actually one
-  'no-unexpected-multiline': 2
+  'no-unexpected-multiline': 2,
 };

@@ -1,6 +1,4 @@
 {
-  "extends": "./index.js",
-  "rules": {
-    "quote-props": [2, "always"]
-  }
+  "extends": ["./index.js", "prettier"],
+  "rules": {}
 }

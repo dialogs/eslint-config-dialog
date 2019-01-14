@@ -32,5 +32,5 @@ module.exports = {
   'no-restricted-properties': 0,
 
   // disallow use of synchronous methods
-  'no-sync': 1
+  'no-sync': 1,
 };

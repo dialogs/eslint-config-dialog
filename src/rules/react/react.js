@@ -27,7 +27,7 @@ module.exports = {
   'react/forbid-elements': 0,
 
   // Forbid certain propTypes
-  'react/forbid-prop-types': [2, { 'forbid': ['array', 'object'] }],
+  'react/forbid-prop-types': [2, { forbid: ['array', 'object'] }],
 
   // Forbid foreign propTypes
   'react/forbid-foreign-prop-types': 2,
@@ -66,7 +66,7 @@ module.exports = {
   'react/no-is-mounted': 2,
 
   // Prevent multiple component definition per file
-  'react/no-multi-comp': [2, { 'ignoreStateless': true }],
+  'react/no-multi-comp': [2, { ignoreStateless: true }],
 
   // Prevent usage of shouldComponentUpdate when extending React.PureComponent
   'react/no-redundant-should-component-update': 2,
@@ -126,7 +126,7 @@ module.exports = {
   'react/sort-comp': [
     2,
     {
-      'order': [
+      order: [
         'type-annotations',
         'static-methods',
         'lifecycle',
@@ -138,9 +138,9 @@ module.exports = {
         '/^set.+$/',
         'everything-else',
         '/^render.+$/',
-        'render'
-      ]
-    }
+        'render',
+      ],
+    },
   ],
 
   // Enforce propTypes declarations alphabetical sorting
@@ -150,5 +150,5 @@ module.exports = {
   'react/style-prop-object': 2,
 
   // Prevent void DOM elements (e.g. <img />, <br />) from receiving children
-  'react/void-dom-elements-no-children': 0
+  'react/void-dom-elements-no-children': 0,
 };

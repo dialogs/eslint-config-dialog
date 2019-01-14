@@ -9,7 +9,7 @@ module.exports = {
   'react/jsx-child-element-spacing': 2,
 
   // Validate closing bracket location in JSX
-  'react/jsx-closing-bracket-location': [2, { 'location': 'tag-aligned' }],
+  'react/jsx-closing-bracket-location': [2, { location: 'tag-aligned' }],
 
   // Validate closing tag location in JSX
   'react/jsx-closing-tag-location': 2,
@@ -21,7 +21,7 @@ module.exports = {
   'react/jsx-equals-spacing': [2, 'never'],
 
   // Restrict file extensions that may contain JSX
-  'react/jsx-filename-extension': [2, { 'extensions': ['js', 'ts'] }],
+  'react/jsx-filename-extension': [2, { extensions: ['js', 'ts'] }],
 
   // Enforce position of the first prop in JSX
   'react/jsx-first-prop-new-line': [2, 'multiline'],
@@ -30,9 +30,9 @@ module.exports = {
   'react/jsx-handler-names': [
     2,
     {
-      'eventHandlerPrefix': 'handle',
-      'eventHandlerPropPrefix': 'on'
-    }
+      eventHandlerPrefix: 'handle',
+      eventHandlerPropPrefix: 'on',
+    },
   ],
 
   // Validate JSX indentation
@@ -48,7 +48,7 @@ module.exports = {
   'react/jsx-max-depth': 0,
 
   // Limit maximum of props on a single line in JSX
-  'react/jsx-max-props-per-line': [2, { 'maximum': 4 }],
+  'react/jsx-max-props-per-line': [2, { maximum: 4 }],
 
   // Prevent usage of .bind() and arrow functions in JSX props
   'react/jsx-no-bind': 2,
@@ -57,7 +57,7 @@ module.exports = {
   'react/jsx-no-comment-textnodes': 2,
 
   // Prevent duplicate props in JSX
-  'react/jsx-no-duplicate-props': [2, { 'ignoreCase': true }],
+  'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
 
   // Prevent usage of unwrapped JSX strings
   'react/jsx-no-literals': 0,
@@ -87,10 +87,10 @@ module.exports = {
   'react/jsx-tag-spacing': [
     2,
     {
-      'closingSlash': 'never',
-      'beforeSelfClosing': 'always',
-      'afterOpening': 'never'
-    }
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never',
+    },
   ],
 
   // Prevent React to be incorrectly marked as unused
@@ -100,5 +100,5 @@ module.exports = {
   'react/jsx-uses-vars': 2,
 
   // Prevent missing parentheses around multilines JSX
-  'react/jsx-wrap-multilines': 2
+  'react/jsx-wrap-multilines': 2,
 };

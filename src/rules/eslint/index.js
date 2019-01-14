@@ -6,5 +6,5 @@ module.exports = Object.assign(
   require('./possible-errors'),
   require('./strict-mode'),
   require('./stylistic-issues'),
-  require('./variables')
+  require('./variables'),
 );

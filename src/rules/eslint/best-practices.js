@@ -15,25 +15,25 @@ module.exports = {
   'class-methods-use-this': 2,
 
   // specify the maximum cyclomatic complexity allowed in a program
-  'complexity': 2,
+  complexity: 2,
 
   // require return statements to either always or never specify values
   'consistent-return': 2,
 
   // specify curly brace conventions for all control statements
-  'curly': [2, 'multi-line'],
+  curly: [2, 'multi-line'],
 
   // require default case in switch statements
   'default-case': 2,
 
   // encourages use of dot notation whenever possible
-  'dot-notation': [2, { 'allowKeywords': true }],
+  'dot-notation': [2, { allowKeywords: true }],
 
   // enforces consistent newlines before or after dots
   'dot-location': [2, 'property'],
 
   // require the use of === and !==
-  'eqeqeq': 2,
+  eqeqeq: 2,
 
   // make sure for-in loops have an if statement
   'guard-for-in': 2,
@@ -198,7 +198,7 @@ module.exports = {
   'prefer-promise-reject-errors': 2,
 
   // require use of the second argument for parseInt()
-  'radix': 2,
+  radix: 2,
 
   // disallow async functions which have no await expression
   'require-await': 0,
@@ -210,5 +210,5 @@ module.exports = {
   'wrap-iife': [2, 'any'],
 
   // require or disallow Yoda conditions
-  'yoda': 2
+  yoda: 2,
 };
