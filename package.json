@@ -1,6 +1,6 @@
 {
   "name": "@dlghq/eslint-config-dialog",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Dialog ESLint config",
   "main": "index.js",
   "files": [
