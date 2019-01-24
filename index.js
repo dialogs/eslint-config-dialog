@@ -11,17 +11,16 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true,
     },
   },
   plugins: ['react-hooks', 'react'],
   settings: {
     react: {
       pragma: 'React',
-      version: '15',
+      version: '16',
     },
   },
   rules: Object.assign({}, eslint, react),
