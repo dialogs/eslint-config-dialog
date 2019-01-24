@@ -16,7 +16,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react-hooks', 'react'],
+  plugins: ['babel', 'flowtype', 'react-hooks', 'react'],
   settings: {
     react: {
       pragma: 'React',
