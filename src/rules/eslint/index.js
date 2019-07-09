@@ -7,4 +7,5 @@ module.exports = Object.assign(
   require('./strict-mode'),
   require('./stylistic-issues'),
   require('./variables'),
+  require('./flowtype'),
 );
